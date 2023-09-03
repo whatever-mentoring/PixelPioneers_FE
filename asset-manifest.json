@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/inflow1/static/css/main.760bc890.css",
+    "main.js": "/inflow1/static/js/main.2a30de90.js",
+    "static/js/787.f587e8d5.chunk.js": "/inflow1/static/js/787.f587e8d5.chunk.js",
+    "static/media/Pretendard-Regular.woff": "/inflow1/static/media/Pretendard-Regular.a97abcb6f03db9c6720f.woff",
+    "static/media/pose.png": "/inflow1/static/media/pose.ed10b43cd6158192e14c.png",
+    "static/media/giftbox.png": "/inflow1/static/media/giftbox.033e1b05e96a1049ea59.png",
+    "static/media/tape.png": "/inflow1/static/media/tape.0c9cd605dab9f9a37380.png",
+    "index.html": "/inflow1/index.html",
+    "main.760bc890.css.map": "/inflow1/static/css/main.760bc890.css.map",
+    "main.2a30de90.js.map": "/inflow1/static/js/main.2a30de90.js.map",
+    "787.f587e8d5.chunk.js.map": "/inflow1/static/js/787.f587e8d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.760bc890.css",
+    "static/js/main.2a30de90.js"
+  ]
+}
