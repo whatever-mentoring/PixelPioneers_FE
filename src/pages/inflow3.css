@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../resource/font/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App3 {
+  background-color: #1C54A9;
+  text-align: center;
+  color : white;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Pretendard-Regular';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag{
+  margin-top: 6vh;
+  margin-bottom: 8vh;
+  font-size: 2.2vh;
+}
+
+.poseAria{
+  background-color: white;
+  border-radius: 16px;
+  width: 36vh;
+  height: 50vh;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tape{
+  background-image: url(../resource/img/tape.png);
+  background-size: 9vh;
+  background-repeat: no-repeat;
+  background-position : center;
+  height: 9vh;
+  margin-top: -4.2vh;
+}
+
+.pose{
+  margin-top: 0vh;
+  background-image: url(../resource/img/pose.png);
+  background-size: 25vh;
+  background-repeat: no-repeat;
+  background-position : center;
+  height:35vh;
+}
+
+.retry{
+  padding: 1.5vh 9vh 1.5vh 9vh;
+  background-color: #4CF23E;
+  border-radius: 16px;
+  border-style: none;
+  font-size: 2vh;
+  text-decoration: none;
+  color:black;
+  margin-top: 2vh;
+}
+
+.otherPose{
+  margin-top: 6vh;
+  padding-top: 1vh;
+  width: 11vh;
+  height: 11vh;
+  border-radius: 50%;
+  border-style : solid;
+  border-color : white;
+  color : white;
+  background-color: #1C54A9;
+}
+
+.arrow0 {
+  background-image: url(../resource/Icons/arrow_forward_24px.png);
+  background-size: 2.2h;
+  background-repeat: no-repeat;
+  background-position : center;
+  height:2.2vh;
+}
+
+
+
+
