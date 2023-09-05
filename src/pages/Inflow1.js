@@ -8,11 +8,22 @@ function App1(){
 
   const [hello, setHello] = useState('')
 
-    useEffect(() => {
-        axios.get('/photos/3')
-        .then(response => setHello(response.data))
-        .catch(error => console.log(error))
-    }, []);
+  useEffect(() => {
+      axios.get('/photos/4')
+      .then(response => setHello(response.data))
+      .catch(error => console.log(error))
+  }, []); // BE에 json 형식으로 데이터 전송
+
+  fetch('https://jsonplaceholder.typicode.com/users')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+
+  useEffect(() => {
+    axios.get('https://jsonplaceholder.typicode.com/users')
+        .then(response => {
+            console.log(response);
+        });
+  }, []);
 
   return (
     <div className="App1">
@@ -35,9 +46,12 @@ function App1(){
       </div>
       <div>
             백엔드에서 가져온 데이터입니다 : {hello}
-        </div>
+      </div>
     </div>
   )
+
+
+
 }
 
 export default App1;

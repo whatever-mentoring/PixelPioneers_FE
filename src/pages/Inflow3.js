@@ -1,4 +1,5 @@
 import './inflow3.css';
+import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 function App3(){
@@ -11,9 +12,9 @@ function App3(){
         <div className="pose"></div>
         <button className="retry">다른 포즈 원해요!</button>
       </div>
-      <button className='otherPose'>포즈<br/>모아보기<br/>
+      <Link to="/inflow4" className='otherPose'>포즈<br/>모아보기<br/>
         <div className='arrow0'></div>
-      </button>
+      </Link>
     </div>
   )
 }

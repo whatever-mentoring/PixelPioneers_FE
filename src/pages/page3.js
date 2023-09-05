@@ -22,7 +22,7 @@ function AppPage4(){
   return (
     <div className="back1">
       <div className="tag3">
-        <div className="arrow0"></div>
+        <div className="arrow"></div>
         <h3 className="tag4">포즈 모아보기</h3>
       </div>
       <div className="circle">     

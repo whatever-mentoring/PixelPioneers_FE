@@ -34,7 +34,8 @@ ul, li,a {
   
   
 }
-.arrow0{
+
+.arrow{
   position: relative;
   background-image: url("../resource/arrow.png");
   background-repeat: no-repeat;
