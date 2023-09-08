@@ -1,33 +1,24 @@
-import './inflow2.css';
+import styles from './inflow2.module.css';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
-function App2(){
+function App(){   
 
   return (
-    <div className="App2">
-      <div className="invisible-nav">
-        <div className="logIn">로그인</div>
+    <div className={styles.App2}>
+      <div className={styles.invisibleNav2}>
+        <div className={styles.backBtn}></div>
+        <div className={styles.inflow2Title}>포즈 모아보기</div>
         </div>
-      <div className="mainLogo">
-        <div className="logoTop">포즈가 고민될 때는?</div>
-        <div className="logoBottom">모아모아</div>
+      <div className={styles.inflow2Script}>
+        <div className={styles.inflow2ScriptFirst}>몇 명이서 사진을<br/>찍을 건가요?</div>
+        <div className={styles.inflow2ScriptSecond}>사람 수에 따른 포즈를 추천해드릴게요!</div>
       </div>
-      <div className="peopleContainer">
-        <div style={{paddingBottom:'3vh'}}>총 몇 명인가요?</div>
-        <div>#1명이서</div>
-        <div>#2명이서</div>
-        <div>#3명이서</div>
-        <div>#4명이서</div>
-        <div>#5명이서</div>
-        <div>#6명이서</div>
-        <div>#그 이상</div>
-      </div>
-      <div className="randBtnAria">
-      <Link to="/inflow3" className="randBtn2">랜덤포즈 뽑기</Link>
-      </div>
+      <div className={styles.peopleContainer}></div>
+      <Link to="/inflow3" className={styles.randBtn2}>랜덤포즈 뽑기</Link>
     </div>
   )
+
 }
 
-export default App2;
+export default App;

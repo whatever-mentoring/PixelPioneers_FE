@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('../resource/font/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 400;
+  font-style: bold;
+}
+
 .App3 {
   background-color: #1C54A9;
   text-align: center;
@@ -18,9 +25,15 @@
   align-items: center;
 }
 
+.inflow3Script{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 2.5vh;
+}
+
+
 .tag{
-  margin-top: 6vh;
-  margin-bottom: 8vh;
+  margin-top: 1vh;
+  margin-bottom: 6vh;
   font-size: 2.2vh;
 }
 
@@ -28,7 +41,7 @@
   background-color: white;
   border-radius: 16px;
   width: 36vh;
-  height: 50vh;
+  height: 58vh;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -50,18 +63,25 @@
   height:35vh;
 }
 
-.retry{
-  padding: 1.5vh 9vh 1.5vh 9vh;
+.poseBtn{
+  width: 30vh;
+  height: 5vh;
   background-color: #4CF23E;
   border-radius: 16px;
   border-style: none;
   font-size: 2vh;
-  text-decoration: none;
-  color:black;
   margin-top: 2vh;
+  color: white;
 }
 
-.otherPose{
+.linkPose{
+  padding: 1.5vh 8.5vh 1.5vh 8.5vh;
+  font-size: 2vh;
+  text-decoration: none;
+}
+
+
+.makeArchive{
   font-size: 2.2vh;
   margin-top: 6vh;
   padding-top: 2vh;
@@ -73,6 +93,7 @@
   color : white;
   background-color: #1C54A9;
 }
+
 
 .arrow0 {
   background-image: url(../resource/Icons/arrow_forward_24px.png);

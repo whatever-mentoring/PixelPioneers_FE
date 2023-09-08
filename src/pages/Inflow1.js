@@ -44,9 +44,8 @@ function App1(){
       <div className="randBtnAria">
         <Link to="/inflow2" className="randBtn1">랜덤포즈 뽑기</Link>
       </div>
-      <div>
-            백엔드에서 가져온 데이터입니다 : {hello}
-      </div>
+      {/* 백엔드에서 가져온 데이터입니다 : {hello} */}
+      
     </div>
   )
 

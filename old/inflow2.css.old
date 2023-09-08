@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../resource/font/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App2 {
+  background-color: #1C54A9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color : white;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Pretendard-Regular';
+}
+
+.invisible-nav {
+  display : flex;
+  justify-content : end;
+  align-content: center;
+  font-size: 2.2vh;
+  padding : 3vh;
+  padding-top: 4vh;
+  height: 3vh;
+}
+
+.logIn{
+  height: fit-content;
+}
+
+.mainLogo{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+}
+
+.logoTop{
+  font-size: 2.2vh;
+}
+
+.logoBottom{
+  font-size: 5vh;
+}
+
+.peopleContainer{
+  width : 40vh;
+  height : 52vh;
+  margin-bottom: 10vh;
+  margin-top: 3vh;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2D3648;
+  border-radius: 8px;
+}
+
+.peopleContainer>div{
+  color:black;
+  font-size: 2.2vh;
+  padding: 1.2vh;
+}
+
+.randBtn2{
+  padding: 2vh 14vh 2vh 14vh;
+  border-style: none;
+  background: #A5F59F;
+  border-radius: 16px;
+  font-size: 2.2vh;
+  text-decoration: none;
+  color:black;
+}
