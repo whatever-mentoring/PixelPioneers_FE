@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/PixelPioneers_FE/static/css/main.5ad134dd.css",
-    "main.js": "/PixelPioneers_FE/static/js/main.a47d2f9a.js",
+    "main.css": "/PixelPioneers_FE/static/css/main.2a06414f.css",
+    "main.js": "/PixelPioneers_FE/static/js/main.8939ed79.js",
     "static/js/787.f587e8d5.chunk.js": "/PixelPioneers_FE/static/js/787.f587e8d5.chunk.js",
+    "static/media/ppex.png": "/PixelPioneers_FE/static/media/ppex.f6fdc217fee1c83c87b6.png",
+    "static/media/Pretendard-Bold.woff": "/PixelPioneers_FE/static/media/Pretendard-Bold.dd56301118da9e158ce9.woff",
     "static/media/Pretendard-Regular.woff": "/PixelPioneers_FE/static/media/Pretendard-Regular.a97abcb6f03db9c6720f.woff",
+    "static/media/Pretendard-SemiBold.woff": "/PixelPioneers_FE/static/media/Pretendard-SemiBold.86ffe3f48b7881c55a2c.woff",
+    "static/media/Pretendard-Medium.woff": "/PixelPioneers_FE/static/media/Pretendard-Medium.f0cc544dcc84cf9f03b3.woff",
+    "static/media/Pretendard-ExtraLight.woff": "/PixelPioneers_FE/static/media/Pretendard-ExtraLight.050334e61f5fd99dddd4.woff",
     "static/media/pose.png": "/PixelPioneers_FE/static/media/pose.ed10b43cd6158192e14c.png",
     "static/media/giftbox.png": "/PixelPioneers_FE/static/media/giftbox.033e1b05e96a1049ea59.png",
+    "static/media/Group67.png": "/PixelPioneers_FE/static/media/Group67.6ca8d947362d7ba29f8f.png",
+    "static/media/BannerImg_k.png": "/PixelPioneers_FE/static/media/BannerImg_k.41e9848e9ad4a5771df6.png",
+    "static/media/logo.png": "/PixelPioneers_FE/static/media/logo.bc34fc5410d1271e76cb.png",
     "static/media/tape.png": "/PixelPioneers_FE/static/media/tape.0c9cd605dab9f9a37380.png",
+    "static/media/Group 6.png": "/PixelPioneers_FE/static/media/Group 6.5fc20f9edc01d38f08c6.png",
+    "static/media/usericon_k.png": "/PixelPioneers_FE/static/media/usericon_k.bcb5747497579be66574.png",
+    "static/media/Group69m.png": "/PixelPioneers_FE/static/media/Group69m.08914a3d05393b9266a3.png",
     "index.html": "/PixelPioneers_FE/index.html",
-    "main.5ad134dd.css.map": "/PixelPioneers_FE/static/css/main.5ad134dd.css.map",
-    "main.a47d2f9a.js.map": "/PixelPioneers_FE/static/js/main.a47d2f9a.js.map",
+    "main.2a06414f.css.map": "/PixelPioneers_FE/static/css/main.2a06414f.css.map",
+    "main.8939ed79.js.map": "/PixelPioneers_FE/static/js/main.8939ed79.js.map",
     "787.f587e8d5.chunk.js.map": "/PixelPioneers_FE/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ad134dd.css",
-    "static/js/main.a47d2f9a.js"
+    "static/css/main.2a06414f.css",
+    "static/js/main.8939ed79.js"
   ]
 }
