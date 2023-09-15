@@ -1,52 +1,54 @@
-import './inflow1.css';
-import { Link } from "react-router-dom";
+import styles from './css/inflow1.module.css';
+import classNames from 'classnames';
+import { Link, useAsyncError, useNavigate} from "react-router-dom";
 import { useState, useEffect } from 'react';
-import React from 'react';
+import {React} from 'react';
 import axios from 'axios';
+import Wrapper from './recircleComponets/Wrapper';
+import '../login/page4.css';
 
 function App1(){
+  const delay = ms => new Promise(
+    resolve => setTimeout(resolve, ms)
+  );
 
-  const [hello, setHello] = useState('')
+  const navigate = useNavigate();
+  const [boxImgClassName, setboxImgClassName] = useState(styles.boxImg);
 
-  useEffect(() => {
-      axios.get('/photos/4')
-      .then(response => setHello(response.data))
-      .catch(error => console.log(error))
-  }, []); // BE에 json 형식으로 데이터 전송
+  const nextPage = async event => {
+    await delay(500);
+    navigate('/inflow2');
+  }
 
-  fetch('https://jsonplaceholder.typicode.com/users')
-  .then((response) => response.json())
-  .then((json) => console.log(json));
-
-  useEffect(() => {
-    axios.get('https://jsonplaceholder.typicode.com/users')
-        .then(response => {
-            console.log(response);
-        });
-  }, []);
 
   return (
-    <div className="App1">
-      <div className="invisible-nav">
-        <div className="logIn">로그인</div>
+    <Wrapper>
+    <div className={styles.App1}>
+      <div className={styles.content}>
+        <div className={styles.invisibleNav}>
+          <Link to="/mainPage" className={styles.test}>(Test)메인화면으로</Link>
+          <Link to="/onBoard" className={styles.logIn}>시작하기</Link>
         </div>
-      <div className="mainLogo">
-        <div className="logoTop">포즈가 고민될 때는?</div>
-        <div className="logoBottom">모아모아</div>
-      </div>
-      <div className="imgContainer">
-        <div className="boxImg">
-          <div className="questionMark1"></div>
-          <div className="questionMark2"></div>
-          <div className="questionMark3"></div>
+        <div className={styles.mainLogo}>
+          <div className={styles.logoTop}>포즈가 고민될 때는?</div>
+          <div className={styles.logoBottom}></div>
+        </div>
+        <div className={styles.imgContainer} onClick={() => {nextPage()}}>
+          <div className={styles.boxImg}></div>
+          
+          <div>
+            <div className={styles.script1}>랜덤포즈 뽑기</div>
+            <div className={styles.script2}>여기를 클릭하세요</div>
+          </div>
         </div>
       </div>
-      <div className="randBtnAria">
-        <Link to="/inflow2" className="randBtn1">랜덤포즈 뽑기</Link>
-      </div>
-      {/* 백엔드에서 가져온 데이터입니다 : {hello} */}
-      
+      <Link to="/mainPage" state={{ Tap: 1 }} className={styles.randBtn1}>사진첩 만들기</Link>
+      {/* <button onClick={() => {
+	      axios.get('http://3.85.130.74:8080/photos') // GET 요청
+  	    .then((res) => {console.log(res.data)}) // 출력
+      }}>httpget</button> */}
     </div>
+    </Wrapper>
   )
 
 

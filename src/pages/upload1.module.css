@@ -1,0 +1,61 @@
+*{font-family: 'Pretendard-Regular';}
+
+.controler{
+    width: 4vh;
+    height: 4vh;
+    position: relative;
+    background-image: url(../resource/Vector16.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    top: 3vh;
+}
+.addname{
+    margin: auto;
+    position: relative;
+    top: 2vh;
+    font-size: 2.4vh;
+    font-weight: bold;
+    text-align: center;
+}
+.box5{
+    top: 5vh;
+    position: relative;
+    background-color: #E9ECEE;
+    width: 62%;
+    height: 35vh;
+    border-radius: 2vh;
+    margin: auto;
+}
+.plus3{
+    width: 7vh;
+    height: 7vh;
+    position: relative;
+    background-image: url(../resource/plus.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    top: 13vh;
+}
+.upload{
+    background-color: #62E857;
+    color: white;
+    width: 100%;
+    height: 11vh;
+    position: relative;
+    top:40vh;
+    text-align: center;
+    font-size: 2.2vh;
+    font-weight: 900;
+    line-height: 10vh;
+}
+.close{
+    width: 4vh;
+    height: 4vh;
+    position: relative;
+    background-image: url(../resource/closem2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    top: 13vh;
+}

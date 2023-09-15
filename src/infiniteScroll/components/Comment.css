@@ -1,0 +1,18 @@
+.comment-item {
+    width: 20vh;
+    height: 20vh;
+    overflow-x:hidden;
+    padding: 1vh;
+    margin-bottom: 1vh;
+    background: black;
+    border-radius: 20px;
+    font-size: 1.2vh;
+  }
+
+  .eachRandomPhoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+  

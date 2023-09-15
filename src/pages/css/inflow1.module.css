@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../../resource/font/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-ExtraLight';
+  src: url('../../resource/font/Pretendard-ExtraLight.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url('font.css');
+
+.App1 {
+  background-color: #1C54A9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color : white;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Pretendard-Regular';
+ 
+}
+
+.content{
+  height: 85vh;
+  width: 100%;
+}
+
+.invisibleNav {
+  display : flex;
+  justify-content : space-between;
+  align-items: center;
+  
+  font-size: 2.2vh;
+  height: 10vh;
+  width: 100%;
+}
+
+.logIn{
+  color:white;
+  text-decoration: none;
+  margin-right: 2vh;
+  height: fit-content;
+  font-family: 'Pretendard-ExtraLight';
+}
+
+.test{
+  color:white;
+  text-decoration: none;
+  margin-left: 2vh;
+  height: fit-content;
+  font-family: 'Pretendard-ExtraLight';
+}
+
+.mainLogo{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 12vh;
+}
+
+.logoTop{
+  font-size: 2.2vh;
+  text-align: center;
+  margin-bottom: 1.2vh;
+  font-family: 'Pretendard-ExtraLight';
+}
+
+.logoBottom{
+  height : 5vh;
+  background-image: url(../../resource/img/logo.png);
+  background-size:23vh;
+  background-repeat: no-repeat;
+  background-position : center;
+}
+
+.imgContainer{
+  width : 100%;
+  height : 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.boxImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width : 100%;
+  height : 50vh;
+  background-image: url(../../resource/img/inflow1/boxImg_K.png);
+  background-size: 37vh;
+  background-repeat: no-repeat;
+  background-position : center;
+  margin-top: 0vh;
+  text-decoration: none;
+  color: white;
+  filter: blur(3.5px);
+  transition: 0.5s;
+}
+
+.imgContainer:hover .boxImg{
+  filter: blur(0px);
+  background-size: 45vh;
+}
+
+.imgContainer:hover .script1{
+  font-size: 6vh;
+}
+
+.imgContainer:hover .script2{
+  font-size: 3vh;
+}
+
+.imgContainer>div{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.script1, .script2{
+  font-family: 'Pretendard-ExtraBold';
+}
+
+.script1{
+  font-size: 4vh;
+  /* 랜덤포즈 뽑기 */
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+
+.script2{
+  font-size: 2vh;
+  font-family: 'Pretendard-Regular';
+  /* 여기를 터치하세요! */
+  text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+
+.randBtn1{
+  padding: 2.2vh 13.7vh 2.2vh 13.7vh;
+  border-style: none;
+  background: #62E857;
+  border-radius: 16px;
+  font-size: 2.2vh;
+  text-decoration: none;
+  color: white;
+  font-family: 'Pretendard-SemiBold';
+}

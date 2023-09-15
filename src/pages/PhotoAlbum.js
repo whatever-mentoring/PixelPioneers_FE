@@ -1,17 +1,23 @@
-import styles from './PhotoAlbum.module.css'
+import styles from './css/PhotoAlbum.module.css'
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PhotoAlbumModal from "./PhotoAlbumModal";
 import photopage from "../resource/Group 6.png";
 import { useState } from 'react';
 
-function App(){
-  let [modal, setModal] = useState(false);
+
+
+const App = () => {
+  const [modal, setModal] = useState(false);
+
+  const modalState = () => {
+    setModal(!modal);
+  }
 
   return (
     <div className={styles.photoAlbum}>
       {
-      	  modal == true ? <PhotoAlbumModal /> : null  //기계역할
+      	  modal == true ? <PhotoAlbumModal modalState={modalState} /> : null  //기계역할
         }
       {/* <div className="invisible-nav">
         <div className="logIn" onClick={()=>{setModal(!modal)}}>로그인</div>

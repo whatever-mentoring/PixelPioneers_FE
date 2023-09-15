@@ -1,0 +1,91 @@
+@import url("./font.css");
+.Modal {
+  position:fixed;
+  top:0;
+  z-index: 1;
+  text-align: center;
+  color : white;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Pretendard-Regular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ModalBackground{
+  position:absolute;
+  background-color: black;
+  opacity: 40%;
+  height: 100vh;
+  width: 100%;
+}
+
+.inviteAria{
+  position: relative;
+  top : -10vh;
+  background-color: white;
+  z-index: 999;
+  width: 90%;
+  height: 27vh;
+  border-radius: 12px;
+}
+
+.nav{
+  height: 7vh;
+  border-bottom: #DFDFDF 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vh 2vh 0vh 2vh;
+  color: black
+}
+
+.inputAlbumName, .inputUserId{
+  border: 0;
+  outline: none;
+  font-size: 1.8vh;
+}
+
+.inputAlbumName{
+  margin-top: 2vh;
+  width: 92%;
+}
+
+.example{
+  color:#C0B7B7;
+  margin-top: 10.5vh;
+}
+
+.inputUserIdArea{
+  font-size: '1.8vh';
+  color: #D8D8D8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2vh;
+  margin-left: 5%;
+}
+
+.inputUserId{
+  padding: 0;
+  margin: 0;
+  width: 110px
+}
+
+.filterUsers{
+  display: block;
+}
+
+.filterUsers > li {
+  color:rgba(0, 0, 255, 0.605);
+  margin-left: 5%;
+  margin-top: 0.5vh;
+  text-align:left;
+  display: list-item;
+  align-items: start;
+  justify-content: end;
+
+}
+
+

@@ -1,0 +1,59 @@
+@import url("./font.css");
+
+.Tap1{
+    width: 100%;
+    height: auto;
+    font-family: 'Pretendard-Regular';
+}
+
+.Banner{
+    color: black;
+    height: 15vh;
+    background-color: white;
+    opacity: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.BannerDiv1{
+    margin-top: 2.5vh;
+    font-size: 2vh;
+}
+
+.BannerDiv2{
+    margin-top: 1vh;
+    font-size: 2vh;
+    font-family: 'Pretendard-Bold';
+}
+
+.BannerImg{
+    margin-top: 4vh;
+    width: 10vh;
+    height: 10vh;
+    background-image: url("../../resource/img/mainPage/BannerImg_k.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tap1Header{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.tap1HeaderTotal{
+    margin-bottom: 2vh;
+}
+
+.tap1HeaderPeople{
+    /* Rectangle 1470 */
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5vh;
+    padding: 1vh 2vh 1vh 2vh;
+}

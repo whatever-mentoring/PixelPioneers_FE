@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../resource/font/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.close{
+  position: relative;
+  width: 2vh;
+  height: 2vh;
+  background-image: url(../resource/closem.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: left;
+  margin-left: 5%;
+  top: 8vh;
+}
+
+.App{
+  background-color: #1C54A9;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.tag{
+  top: 15%;
+  position: relative;
+}
+.tag1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 5vh;
+}
+.tag2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5vh;
+}
+.laun{
+  background-image: url("../resource/Group69m.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25vh;
+  height: 25vh;
+  background-size: 23vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -6vh;
+  margin: auto;
+}
+.buttonArea4{
+  
+  top: 13vh;
+  position: relative;
+}
+.kakao_button{
+  background-color: #F9E54D;
+  width: 80%;
+  height: 5vh;
+  position: relative;
+  top: 10vh;
+  display: flex;
+  margin: auto;
+  color: black;
+  border-radius: 3vh; 
+  
+  
+  
+}
+.kakaologo{
+  background-image: url("../resource/kakaotalk1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.5vh;
+  width: 5vh;
+  height: 5vh;
+  position: relative;
+  line-height: 1vh;
+  left: 1.5vh;
+}
+.email_button{
+  background-color: #ffffff;
+  width: 80%;
+  height: 5vh;
+  position: relative;
+  top: 13vh;
+  
+  text-align: center;
+  border-radius: 3vh; 
+  
+  display: flex;
+  margin: auto;
+  
+  
+  
+}
+.applelogo{
+  background-image: url("../resource/envelope1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2vh;
+  width: 4vh;
+  height: 4vh;
+  position: relative;
+  float: left;
+  left: 2vh;
+  top: .5vh;
+  
+}
+.login1{
+  color: white;
+  position: relative;
+  top: 30vh;
+  font-size: 1.8vh;
+  display: flex;
+  justify-content: center;
+}
+.login2{
+  left: 1vh;
+  position: relative;
+  font-weight: 900;
+}
+.kakaotext{
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-size: 2.1vh;
+  top: -1vh;
+  position: relative;
+  
+}
+.emailtext{
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-size: 2.1vh;
+  top: -1vh;
+  position: relative;
+}

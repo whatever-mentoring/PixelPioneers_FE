@@ -1,0 +1,160 @@
+.background5{
+    background-color: #1C54A9;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.arrow5{
+    position: relative;
+    width: 3vh;
+    height: 3vh;
+    background-image: url(../resource/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-left: 3vh;
+    
+    top: 10vh;
+}
+.logintext2{
+    font-size: 2.5vh;
+    color: white;
+    position: relative;
+    top: 15vh;
+    float: left;
+    left: -3vh;
+}
+.emailname{
+    color: white;
+    position: relative;
+    top: 18vh;
+    border-bottom: 0.1vh solid white;
+    width: 85%;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.emailinput{
+    background-color: #1C54A9;
+    border-style:none;
+    position: relative;
+    top: 2vh;
+    height: 3vh;
+    outline: none;
+    color: white;
+}
+.emailinput::placeholder{
+    color: rgba(255, 255, 255, 0.794);
+    
+}
+
+.passwordname{
+    color: white;
+    position: relative;
+    top: 24vh;
+    border-bottom: 0.1vh solid white;
+    width: 85%;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.loginbtn{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    top: 26vh;
+    position: relative;
+}
+.loginbtn1{
+    padding: 1.5vh 14vh 1.5vh 14vh;
+    border-style: none;
+    background: #62E857;
+    border-radius: 16px;
+    font-size: 2vh;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    width: 90%;
+    height: 5vh;
+    font-weight: 900;
+    margin: auto;
+}
+.find{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 28vh;
+}
+.findid{
+    font-size: 1.5vh;
+    border-right: 0.1vh solid white;
+    width: 10vh;
+
+}
+.findpw{
+    font-size: 1.5vh;
+    margin-left: 3vh;
+}
+.line1{
+    width: 85%;
+    border-top: .1vh solid rgba(255, 255, 255, 0.521);
+    position: relative;
+    top: 38vh;
+    margin:auto;    
+}
+.easylogin{
+    color: rgba(255, 255, 255, 0.521);
+    background-color: #1C54A9;
+    width: 11vh;
+    height: 3vh;
+    font-size: 1.7vh;;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    top: -1.1vh;
+    position: relative;
+}
+.kakaologo{
+    background-image: url("../resource/kakao1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2vh;
+    width: 3vh;
+    height: 3vh;
+    position: relative;
+    top: -.5vh;
+    
+    
+}
+.kakao_button{
+    display: flex;
+    margin: auto;
+    color: black;
+    padding: 1.5vh 14vh 1.5vh 14vh;
+    border-style: none;
+    background: #F9E54D;
+    border-radius: 2vh;;
+    font-size: 2vh;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    top: 40vh;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    height: 5vh;
+    font-weight: 900; 
+}
+
+
+.kakaotext{
+    text-align: center;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.556);
+    font-size: 1.5vh;
+    top: -1.4vh;
+    position: relative;
+
+}

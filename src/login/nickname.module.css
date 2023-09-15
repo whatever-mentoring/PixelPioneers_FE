@@ -1,0 +1,131 @@
+.background4{
+    background-color: #1C54A9;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.signin1{
+    position: relative;
+    top: 8vh;
+}
+.arrow4{
+    position: relative;
+    width: 3.5vh;
+    height: 3.5vh;
+    background-image: url(../resource/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-left: 5%;
+    z-index: 1999;
+}
+.pagetitle1{
+    position: relative;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    margin-right: 2vh;
+    right: 2%;
+}
+.nicknametitle{
+    font-size: 3.6vh;
+    font-family: 'Pretendard-SemiBold';
+    margin-bottom: 2.5vh;
+    color: white;
+    position: relative;
+    text-align: left;
+    top: 9vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 10vh;
+    margin-left: 2vh;
+    width: 40vh;
+}
+.circle{
+    position: relative;
+    border-radius: 30vh;
+    background-color: #ffffffb6;
+    width: 13.5vh;
+    height: 13.5vh;
+    display: table; 
+    margin-left: auto; 
+    margin-right: auto;
+    top: 9vh;
+
+}
+.camera{
+    width: 5vh;
+    height:5vh;
+    background-image: url("../resource/cameram.png");
+    background-repeat: no-repeat;
+    background-size: 2.8vh;
+    position: relative;
+    align-items: center;
+    margin-left: 5.4vh;
+    margin-top: 5vh;;
+
+}
+.nick{
+    border-bottom: 0.1vh solid white;
+    width: 90%;
+    top:13vh;
+    height: 7vh;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+.nickname::placeholder{
+    color: rgba(255, 255, 255, 0.711);
+    font-size: 1.8vh;
+}
+.nickname{
+    border-style: none;
+    top: 2.7vh;
+    position: relative;
+    width: 90%;
+    height: 4vh;
+    background-color: #1C54A9 ;
+    outline: none;
+    font-size: 2.2vh;
+    color: #ffffff;
+}
+.buttonarea2{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    top:-6vh;
+    position: relative;
+}
+.button4{
+    padding: 1.5vh 14vh 1.5vh 14vh;
+    border-style: none;
+    background: #62E857;
+    border-radius: 16px;
+    font-size: 2vh;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    top: 23vh;
+    position: relative;
+    text-align: center;
+    width: 42vh;
+    height: 5vh;
+    font-weight: 900;
+}
+.button5{
+    padding: 1.5vh 14vh 1.5vh 14vh;
+    border-style: none;
+    background: #BBCCE5;
+    border-radius: 16px;
+    font-size: 2vh;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    top: 23vh;
+    position: relative;
+    text-align: center;
+    width: 42vh;
+    height: 5vh;
+    font-weight: 900;
+}

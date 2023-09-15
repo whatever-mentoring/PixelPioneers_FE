@@ -1,16 +1,4 @@
-@font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('../resource/font/Pretendard-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Pretendard-SemiBold';
-  src: url('../resource/font/Pretendard-SemiBold.woff') format('woff');
-  font-weight: 400;
-  font-style: bold;
-}
+@import url("./font.css");
 
 .App3 {
   background-color: #1C54A9;
@@ -26,12 +14,13 @@
 }
 
 .inflow3Script{
+  margin-top: 5vh;
   font-family: 'Pretendard-SemiBold';
   font-size: 2.5vh;
 }
 
 
-.tag{
+.hashTag{
   margin-top: 1vh;
   margin-bottom: 6vh;
   font-size: 2.2vh;
@@ -46,7 +35,7 @@
 }
 
 .tape{
-  background-image: url(../resource/img/tape.png);
+  background-image: url("../../resource/img/tape.png");
   background-size: 9vh;
   background-repeat: no-repeat;
   background-position : center;
@@ -56,7 +45,7 @@
 
 .pose{
   margin-top: 0vh;
-  background-image: url(../resource/img/pose.png);
+  background-image: url("../../resource/img/pose.png");
   background-size: 25vh;
   background-repeat: no-repeat;
   background-position : center;
@@ -78,13 +67,14 @@
   padding: 1.5vh 8.5vh 1.5vh 8.5vh;
   font-size: 2vh;
   text-decoration: none;
+  color: white;
 }
 
 
 .makeArchive{
   font-size: 2.2vh;
   margin-top: 6vh;
-  padding-top: 2vh;
+  padding: 0vh;
   width: 11vh;
   height: 11vh;
   border-radius: 50%;
@@ -92,15 +82,20 @@
   border-color : white;
   color : white;
   background-color: #1C54A9;
+  text-decoration: none;
 }
 
+.makeArchiveText{
+  padding-top: 2.3vh;
+  font-size: 2vh
+}
 
-.arrow0 {
-  background-image: url(../resource/Icons/arrow_forward_24px.png);
-  background-size: 2.2vh;
+.arrow00 {
+  background-image: url("../../resource/Icons/arrow_forward_24px.png");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position : center;
-  height:2.2vh;
+  height:3vh;
 }
 
 

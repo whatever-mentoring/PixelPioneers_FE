@@ -15,7 +15,7 @@
   position: relative;
   width: 3vh;
   height: 3vh;
-  background-image: url(../resource/arrow.png);
+  background-image: url("../../resource/arrow.png");
   background-repeat: no-repeat;
   background-size: 100%;
   float: left;
@@ -35,7 +35,7 @@
   position: relative;
   width: 2.5vh;
   height: 2.5vh;
-  background-image: url(../resource/plus.png);
+  background-image: url("../../resource/plus.png");
   background-repeat: no-repeat;
   background-size: 100%;
   margin-right:5%;
