@@ -1,121 +1,122 @@
 .background5{
-    background-color: #1C54A9;
+    background-color: white;
     width: 100%;
     height: 100vh;
-    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
 }
 .arrow5{
-    position: relative;
     width: 3vh;
     height: 3vh;
-    background-image: url(../resource/arrow.png);
+    background-image: url(../resource/arrow4.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    float: left;
     margin-left: 3vh;
-    
-    top: 10vh;
+    margin-top: 10vh;
 }
+
 .logintext2{
+    margin-top: 4vh;
     font-size: 2.5vh;
-    color: white;
-    position: relative;
-    top: 15vh;
-    float: left;
-    left: -3vh;
+    color: rgb(0, 0, 0);
+    margin-left: 3vh;
 }
+
+form{
+    margin-top: 2vh;
+}
+
 .emailname{
-    color: white;
-    position: relative;
-    top: 18vh;
-    border-bottom: 0.1vh solid white;
+    color: rgb(0, 0, 0);
+    border-bottom: 0.2vh solid #E6E9EC;
     width: 85%;
     height: 7.5vh;
     display: flex;
     flex-direction: column;
     margin: auto;
+    font-weight: 600;
 }
 .emailinput{
-    background-color: #1C54A9;
     border-style:none;
-    position: relative;
-    top: 2vh;
     height: 3vh;
     outline: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin-top: 1.5vh;
+    margin-left: 0;
 }
 .emailinput::placeholder{
-    color: rgba(255, 255, 255, 0.794);
+    color: rgba(0, 0, 0, 0.5);
     
 }
 
 .passwordname{
-    color: white;
-    position: relative;
-    top: 24vh;
-    border-bottom: 0.1vh solid white;
+    color: rgb(0, 0, 0);
+    border-bottom: 0.2vh solid #E6E9EC;
     width: 85%;
     height: 7.5vh;
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-top: 5vh;
+    font-weight: 600;
 }
-.loginbtn{
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    top: 26vh;
-    position: relative;
-}
+
 .loginbtn1{
-    padding: 1.5vh 14vh 1.5vh 14vh;
+    padding: 1.5vh 0vh 1.5vh 0vh;
     border-style: none;
-    background: #62E857;
+    background: #1C66FD;
     border-radius: 16px;
-    font-size: 2vh;
+    font-size: 1.8vh;
     text-decoration: none;
     color:rgb(255, 255, 255);
-    position: relative;
     text-align: center;
     width: 90%;
-    height: 5vh;
     font-weight: 900;
     margin: auto;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
 }
 .find{
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 28vh;
+    text-decoration: none;
+    margin-top: 2vh;
+    margin-left: 1vh;
 }
 .findid{
     font-size: 1.5vh;
-    border-right: 0.1vh solid white;
-    width: 10vh;
+    border-right: 0.1vh solid rgb(0, 0, 0);
+    width: 9vh;
+    text-decoration: none;
+    color:black;
 
 }
 .findpw{
     font-size: 1.5vh;
-    margin-left: 3vh;
+    margin-left: 2vh;
+    text-decoration: none;
+    color:black;
 }
 .line1{
     width: 85%;
-    border-top: .1vh solid rgba(255, 255, 255, 0.521);
-    position: relative;
-    top: 38vh;
+    border-top: 0.15vh solid rgba(0, 0, 0, 0.521);
     margin:auto;    
 }
+.easy{
+    margin-top: 5vh;
+}
 .easylogin{
-    color: rgba(255, 255, 255, 0.521);
-    background-color: #1C54A9;
-    width: 11vh;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 10vh;
     height: 3vh;
-    font-size: 1.7vh;;
+    font-size: 1.5vh;;
     margin:auto;
     display: flex;
     justify-content: center;
-    top: -1.1vh;
-    position: relative;
+    margin-top: -1vh;
 }
 .kakaologo{
     background-image: url("../resource/kakao1.png");
@@ -124,37 +125,41 @@
     background-size: 2vh;
     width: 3vh;
     height: 3vh;
-    position: relative;
-    top: -.5vh;
-    
-    
+    margin-right: 1vh;
 }
 .kakao_button{
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     color: black;
-    padding: 1.5vh 14vh 1.5vh 14vh;
+    padding: 1.5vh 0vh 1.5vh 0vh;
     border-style: none;
-    background: #F9E54D;
+    background: #FBEC4F;
     border-radius: 2vh;;
     font-size: 2vh;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    top: 40vh;
-    position: relative;
     text-align: center;
     width: 90%;
-    height: 5vh;
+    height: 2.5vh;
     font-weight: 900; 
+    top: 2.5vh;
+    position:relative;
 }
-
 
 .kakaotext{
     text-align: center;
-    width: 100%;
     color: rgba(0, 0, 0, 0.556);
     font-size: 1.5vh;
-    top: -1.4vh;
-    position: relative;
-
+    line-height: 0vh;
+}
+.del{
+    width: 3vh;
+    height:5vh;
+    background-image: url(../../src/resource/delete.png);
+    background-repeat: no-repeat;
+    background-size: 2.2vh;;
+    float: right;
+    margin-top:-2.5vh;
+    margin-left: 90%;
+    z-index: 1999;
 }

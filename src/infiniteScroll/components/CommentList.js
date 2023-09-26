@@ -4,12 +4,13 @@ import Comment from "./Comment";
 import "./CommentList.css";
 
 export default function CommentList({
-  heightOfComponet,
-  headerComponet,
+  heightOfComponent,
+  headerComponent,
   hasMore,
   isLoading,
   loadMore,
   comments,
+  commentType
 }) {
   const { measureRef, isIntersecting, observer } = useOnScreen();
 
@@ -21,8 +22,8 @@ export default function CommentList({
   }, [isIntersecting, hasMore, loadMore]);
 
   return (
-    <div className="comment-list" style={{height:heightOfComponet}}>
-      <div>{headerComponet}</div>
+    <div className="comment-list" style={{height:heightOfComponent}}>
+      <div>{headerComponent}</div>
       {comments.map((comment, index) => {
         if (index === comments.length - 1) {
           return (
@@ -30,10 +31,11 @@ export default function CommentList({
               mesureRef={measureRef}
               key={comment.index}
               comment={comment}
+              commentType={commentType}
             />
           );
         }
-        return <Comment key={comment.index} comment={comment} />;
+        return <Comment key={comment.index} comment={comment} commentType={commentType}/>;
       })}
       {isLoading && <li>Loading...</li>}
     </div>

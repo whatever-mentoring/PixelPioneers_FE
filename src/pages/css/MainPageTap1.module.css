@@ -9,7 +9,7 @@
 .Banner{
     color: black;
     height: 15vh;
-    background-color: white;
+    background-color: #F3F3F3;
     opacity: 90%;
     display: flex;
     justify-content: space-around;

@@ -1,10 +1,31 @@
-.comment-item {
-    width: 20vh;
-    height: 20vh;
+.ROLE_ADMIN {
+    width: 22vh;
+    height: 22vh;
+    object-fit: cover;
     overflow-x:hidden;
-    padding: 1vh;
-    margin-bottom: 1vh;
-    background: black;
+    margin: 0.2vh;
+    border-radius: 20px;
+    font-size: 1.2vh;
+  }
+
+  .ROLE_USER {
+    width: 40vh;
+    height: 50vh;
+    object-fit: cover;
+    overflow-x:hidden;
+    padding: 0.1vh;
+    margin-bottom: 0vh; 
+    border-radius: 20px;
+    font-size: 1.2vh;
+  }
+
+  .ALBUMS {
+    width: 21vh;
+    height: 21vh;
+    object-fit: cover;
+    overflow-x:hidden;
+    padding: 0;
+    background-color: rgba(55, 55, 55, 0.2);
     border-radius: 20px;
     font-size: 1.2vh;
   }
@@ -13,6 +34,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
   }
   

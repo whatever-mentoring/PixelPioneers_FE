@@ -1,0 +1,88 @@
+.background11{
+    display:flex;
+    flex-direction: column;
+    display: center;
+}
+.arrow6{
+    background-image: url("/src/resource/arrow5.png");
+    background-repeat: no-repeat;
+    background-size: 4vh;
+    width:5vh;
+    height:5vh;
+    margin-top: 6vh;
+    margin-left: 5%;
+    border: none;
+    background-color: white;
+}
+.mypagetitle{
+    display: flex;
+    justify-content: center;
+    margin-top: -5vh;
+    font-size: 2.5vh;
+    font-weight: 700;
+}
+.userimage{
+    width: 8vh;
+    height: 8vh;
+    background-color: #acb5bdaf;
+    border-radius: 5vh;
+    margin-left: 10%;
+}
+.username{
+    font-size: 2.4vh;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.bord1{
+    border-bottom: .5vh solid #F9F9FB;
+    height: 25vh;
+}
+.setuser{
+    font-size: 2vh;
+    color:#acb5bdaf;
+    font-weight: 500;
+    margin-top: 2.5vh;;
+    margin-left: 7%;
+}
+.changprofile{
+    font-size: 2.2vh;
+    font-weight: 500;
+    margin-top:2.5vh;
+    margin-left: 7%;
+    color:black;
+}
+.arrow8{
+    background-image: url("/src/resource/arrow3.png");
+    background-repeat: no-repeat;
+    background-size: 1.2vh;
+    width: 4vh;
+    height:4vh;
+    display: inline-flex;
+    float: right;
+}
+.bord2{
+    border-bottom: .5vh solid #F9F9FB;
+    height: 19vh;
+}
+.versionimage{
+    background-image: url("/src/resource/v1.png");
+    background-repeat: no-repeat;
+    background-size: 2vh;
+    width: 4vh;
+    height:4vh;
+    display: inline-flex;
+    float: right;
+}
+.logoutimage{
+    background-image: url("/src/resource/goout.png");
+    background-repeat: no-repeat;
+    background-size: 2vh;
+    width: 4vh;
+    height:4vh;
+    display: inline-flex;
+    float: right;
+}
+.bord3{
+    border-bottom: .5vh solid #F9F9FB;
+    height: 29vh;
+}

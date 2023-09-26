@@ -18,9 +18,9 @@ const api = new Api(httpClient);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  //<React.StrictMode>
     <App api={api} />
-  </React.StrictMode>,
+  //</React.StrictMode>
 );
 
 reportWebVitals();

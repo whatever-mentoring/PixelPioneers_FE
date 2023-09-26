@@ -1,9 +1,9 @@
 @import url("./font.css");
 
 .App3 {
-  background-color: #1C54A9;
+  background-color: white;
   text-align: center;
-  color : white;
+  color : black;
   height: 100vh;
   width: 100%;
   font-family: 'Pretendard-Regular';
@@ -11,6 +11,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.backBtn0{
+  position:absolute;
+  top: 7vh;
+  left: 5%;
+  background-image: url("../../resource/arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 3vh;
+  width: 3vh;
 }
 
 .inflow3Script{
@@ -27,6 +38,7 @@
 }
 
 .poseAria{
+  filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.1));
   background-color: white;
   border-radius: 16px;
   width: 36vh;
@@ -43,19 +55,26 @@
   margin-top: -4.2vh;
 }
 
+.imgArea0{
+  height : 35vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .pose{
-  margin-top: 0vh;
-  background-image: url("../../resource/img/pose.png");
-  background-size: 25vh;
-  background-repeat: no-repeat;
-  background-position : center;
-  height:35vh;
+  height : 35vh;
+  width: 30vh;
+  object-fit: contain;
+  border-radius: 16px;
+  transition: 0.4s;
 }
 
 .poseBtn{
   width: 30vh;
   height: 5vh;
-  background-color: #4CF23E;
+  background-color: #1C66FD;
   border-radius: 16px;
   border-style: none;
   font-size: 2vh;
@@ -64,9 +83,11 @@
 }
 
 .linkPose{
-  padding: 1.5vh 8.5vh 1.5vh 8.5vh;
+  padding: 1.5vh 0vh 1.5vh 0vh;
+  width: 30vh;
   font-size: 2vh;
-  text-decoration: none;
+  text-align: center;
+  line-height: 0;
   color: white;
 }
 
@@ -79,9 +100,8 @@
   height: 11vh;
   border-radius: 50%;
   border-style : solid;
-  border-color : white;
-  color : white;
-  background-color: #1C54A9;
+  border-color : rgba(0,0,0,0.5);;
+  color : rgba(0,0,0,0.5);
   text-decoration: none;
 }
 
@@ -97,7 +117,3 @@
   background-position : center;
   height:3vh;
 }
-
-
-
-

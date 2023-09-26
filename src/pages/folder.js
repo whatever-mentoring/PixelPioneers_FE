@@ -1,33 +1,41 @@
-import './folder.css';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ppex from "../resource/ppex.png";
+import styles from './css/folder.module.css';
+import { useState, React, useEffect } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import FolderModal2 from "./folderModal2";
+import Upload1 from "./upload1";
+import PhotosIS from "../infiniteScroll/PhotosIS";
+import client from '../client';
+import finalPropsSelectorFactory from 'react-redux/es/connect/selectorFactory';
 
-function App(){
+function App(props){
+    const location = useLocation();
+    const [albumName, setAlbumName] = useState(location.state != null ? location.state.name : "");
+    const [albumId, setAlbumId] = useState(location.state != null ? location.state.id : "");
+    const [albumImg, setAlbumImg] = useState(location.state != null ? location.state.img : "");
+    const navigate = useNavigate();
+    
+    const [modal, setModal] = useState(false);
+    const [modal1, setModal1] =  useState(false);
+    const modalState = () => {
+        setModal(!modal);
+    }
+    const modalState1 = () => {
+        setModal1(!modal1);
+    }
+
     return(
-        <div className='background2'>
-            <div className="box4">
-                <Link to="/photoalbum"><div className='arrow2'></div></Link>
-                <div className='username2'>username</div>
-                <Link to="/photoalbum"><div className='trash'></div></Link>
+        <div className={styles.background2}>
+            { modal ? <FolderModal2 modalState={modalState} albumId={albumId} albumName={albumName} albumImg={albumImg}/> : null}
+            { modal1 ? <Upload1 modalState1={modalState1} albumId={albumId}/> : null}
+            
+            <div className={styles.box4}>
+                <div className={styles.arrow2} onClick={() => navigate('/mainpage' ,{state:{Tap:1}})}></div>
+                <div className={styles.username2}>{albumName}</div>
+                <div className={styles.trash} onClick={modalState}></div>
             </div>
-            <Link to="/photoalbum"><div className='plus2'></div></Link>
-            <div className='group2'>
-                <div className='photo1'><img src={ppex} className='ppex'/><h4 className='photogroup1'>200일 기념일</h4><p className='date1'>2222년 33월 23일</p></div>
-            </div>
-            <div className='group2'>
-                <div className='photo1'><img src={ppex} className='ppex'/><h4 className='photogroup1'>200일 기념일</h4><p className='date1'>2222년 33월 23일</p></div>
-            </div>
-            <div className='group2'>
-                <div className='photo1'><img src={ppex} className='ppex'/><h4 className='photogroup1'>200일 기념일</h4><p className='date1'>2222년 33월 23일</p></div>
-            </div>
-            <div className='group2'>
-                <div className='photo1'><img src={ppex} className='ppex'/><h4 className='photogroup1'>200일 기념일</h4><p className='date1'>2222년 33월 23일</p></div>
-            </div>
-            <div className='group2'>
-                <div className='photo1'><img src={ppex} className='ppex'/><h4 className='photogroup1'>200일 기념일</h4><p className='date1'>2222년 33월 23일</p></div>
-            </div>
+            <PhotosIS api={props.api} heightOfComponent="90.5vh" headerComponet="" requsetType="15" albumId={albumId} modalState1={modalState1}/>
         </div>
     );
 }
+
 export default App;

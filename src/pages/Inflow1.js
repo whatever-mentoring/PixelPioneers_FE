@@ -3,11 +3,13 @@ import classNames from 'classnames';
 import { Link, useAsyncError, useNavigate} from "react-router-dom";
 import { useState, useEffect } from 'react';
 import {React} from 'react';
-import axios from 'axios';
+import LoginModal from "./recircleComponets/needLoginModal";
+
 import Wrapper from './recircleComponets/Wrapper';
-import '../login/page4.css';
 
 function App1(){
+  const [modal, setModalState] = useState(false);
+
   const delay = ms => new Promise(
     resolve => setTimeout(resolve, ms)
   );
@@ -16,17 +18,32 @@ function App1(){
   const [boxImgClassName, setboxImgClassName] = useState(styles.boxImg);
 
   const nextPage = async event => {
-    await delay(500);
+    await delay(400);
     navigate('/inflow2');
   }
+
+  const albumPage = () => {
+    if(sessionStorage.getItem('isLogin')){
+      navigate('/mainpage', {state:{
+        Tap : 1
+      }});
+    } else {
+      modalState();
+    }
+  }
+
+  const modalState = () => {
+    setModalState(!modal);
+  }
+
 
 
   return (
     <Wrapper>
     <div className={styles.App1}>
+      {modal ? <LoginModal modalState={modalState}/>: null}
       <div className={styles.content}>
         <div className={styles.invisibleNav}>
-          <Link to="/mainPage" className={styles.test}>(Test)메인화면으로</Link>
           <Link to="/onBoard" className={styles.logIn}>시작하기</Link>
         </div>
         <div className={styles.mainLogo}>
@@ -35,18 +52,13 @@ function App1(){
         </div>
         <div className={styles.imgContainer} onClick={() => {nextPage()}}>
           <div className={styles.boxImg}></div>
-          
           <div>
-            <div className={styles.script1}>랜덤포즈 뽑기</div>
+            <div className={styles.script1}>랜덤포즈 뽑기</div>
             <div className={styles.script2}>여기를 클릭하세요</div>
           </div>
         </div>
       </div>
-      <Link to="/mainPage" state={{ Tap: 1 }} className={styles.randBtn1}>사진첩 만들기</Link>
-      {/* <button onClick={() => {
-	      axios.get('http://3.85.130.74:8080/photos') // GET 요청
-  	    .then((res) => {console.log(res.data)}) // 출력
-      }}>httpget</button> */}
+      <div className={styles.randBtn1} onClick={albumPage}>사진첩 만들기</div>
     </div>
     </Wrapper>
   )

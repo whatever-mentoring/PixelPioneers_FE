@@ -1,0 +1,70 @@
+@import url("../../pages/css/font.css");
+
+.Modal {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    text-align: center;
+    color : white;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Pretendard-Regular';
+  }
+  
+  .ModalBackground{
+    position:fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 40%;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .ModalArea{
+    position : absolute;
+    left: calc((100% - 90%)/2);
+    transition: 0.25s;
+    background-color: white;
+    z-index: 1;
+    width: 90%;
+    height: 70vh;
+    border-radius: 12px 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .imageArea{
+    height: 62vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    position: relative;
+    max-width: 90%;
+    max-height: 63vh;
+    object-fit: contain;
+    overflow-x:hidden;
+    padding: 0.1vh;
+    border-radius: 20px;
+    font-size: 1.2vh;
+  }
+
+  .close{
+    width: 100%;
+    height: 7vh;
+    border-radius:0px 0px 12px 12px;
+    border: none;
+    background-color: #1C66FD;
+    color:white;
+    font-family: 'Pretendard-Regular';
+    font-size: 2.2vh;
+  }
+
+
+

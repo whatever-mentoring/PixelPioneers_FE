@@ -2,6 +2,7 @@
 .Modal {
   position:fixed;
   top:0;
+  left: 0;
   z-index: 1;
   text-align: center;
   color : white;
@@ -65,27 +66,35 @@
   align-items: center;
   margin-top: 2vh;
   margin-left: 5%;
+  margin-bottom: 1vh;
 }
 
 .inputUserId{
   padding: 0;
   margin: 0;
-  width: 110px
+  width: 110px;
+  font-family: 'Pretendard-ExtraLight';
 }
 
 .filterUsers{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 12.5vh;
+  overflow-y: scroll;
 }
 
-.filterUsers > li {
-  color:rgba(0, 0, 255, 0.605);
+.filterUsers > div {
+  color: black;
   margin-left: 5%;
   margin-top: 0.5vh;
-  text-align:left;
-  display: list-item;
-  align-items: start;
-  justify-content: end;
-
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
-
+.filterUsers > div > img {
+  margin: 0.5vh 1vh 0.5vh 0.5vh;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 100%;
+}

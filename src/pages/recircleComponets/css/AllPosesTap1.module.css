@@ -1,4 +1,4 @@
-@import url("./font.css");
+@import url("../../css/font.css");
 
 .Tap1{
     width: 100%;
@@ -30,7 +30,7 @@
     margin-top: 4vh;
     width: 10vh;
     height: 10vh;
-    background-image: url("../../resource/img/mainPage/BannerImg_k.png");
+    background-image: url("../../../resource/img/mainPage/BannerImg_k.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

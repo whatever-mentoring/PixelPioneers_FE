@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/photos',
     createProxyMiddleware({
-      target: 'http://localhost:8080',
+      target: 'http://moamoa4cut.net',
       changeOrigin: true,
     })
   );

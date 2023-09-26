@@ -1,0 +1,85 @@
+.background11{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.arrow6{
+    background-image: url("/src/resource/arrow5.png");
+    background-repeat: no-repeat;
+    background-size: 3.5vh;
+    width:5vh;
+    height:5vh;
+    margin-top: 6vh;
+    margin-left: 5%;
+    border: none;
+    background-color: white;
+}
+.bord2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.mypagetitle{
+    display: flex;
+    justify-content: center;
+    margin-top: -5vh;
+    font-size: 2vh;
+    font-weight: 700;
+    
+    
+}
+.title{
+    font-size: 1.5vh;
+    font-weight: 700;
+    margin-top: 5vh;
+    margin-left:5%;
+}
+.box{
+    width: 90%;
+    height: 5vh;
+    border-radius: 1.5vh;
+    border: .1vh solid #DADADA;
+    outline: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.box::placeholder{
+    padding-left:3%;
+}
+.terms{
+    font-size: 1.4vh;
+    margin-left: 3vh;
+
+}
+.changepass{
+    margin-top: 5vh;
+    width:90%;
+    height: 5vh;
+    border-radius: 1.5vh;
+    background-color: #1C66FD;
+    border: none;
+    margin: auto;
+    color: white;
+    position: relative;
+    top:5vh;
+    display: flex;
+    justify-content: center;
+    line-height: 5vh;;
+}
+.changepass1{
+    margin-top: 5vh;
+    width:90%;
+    height: 5vh;
+    border-radius: 1.5vh;
+    background-color: #E4E4E4;
+    border: none;
+    margin: auto;
+    color: white;
+    position: relative;
+    top:5vh;
+    display: flex;
+    justify-content: center;
+    line-height: 5vh;;
+}

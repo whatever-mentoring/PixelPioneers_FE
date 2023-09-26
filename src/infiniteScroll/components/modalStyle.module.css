@@ -1,0 +1,81 @@
+@import url("../../pages/css/font.css");
+
+.Modal {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    text-align: center;
+    color : white;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Pretendard-Regular';
+  }
+  
+  .ModalBackground{
+    position:fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 40%;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .ModalArea{
+    position : absolute;
+    left: calc((100% - 80%)/2);
+    top: 15vh;
+    transition: 0.25s;
+    background-color: white;
+    z-index: 1;
+    width: 80%;
+    max-height: 70vh;
+    border-radius: 12px 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .imgArea{
+    width: 90%;
+    max-height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+
+  .image {
+    max-width: 90%;
+    max-height: 55vh;
+    object-fit: contain;
+    overflow-x:hidden;
+    padding: 0.1vh;
+    border-radius: 20px;
+    font-size: 1.2vh;
+  }
+
+  .trashCan{
+    width: 4vh;
+    height: 4vh;
+    background-image: url("../../resource/img/commentPhotos/delete_iconK.png");
+    background-size: contain;
+    margin-left: 33vh;
+    margin-top: 3vh;
+  }
+
+  .title{
+    margin-top: -1vh;
+    margin-bottom: 0.2vh;
+    font-size: 2.5vh;
+    font-family: "HakgyoansimWoojuR";
+  }
+
+  .date{
+    font-size: 2vh;
+    font-family: "HakgyoansimWoojuR";
+    color: #808080;
+  }

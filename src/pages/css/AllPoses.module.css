@@ -2,11 +2,11 @@
 @import "MainPageTap1.module.css";
 
 .App {
-  background-color: #1C54A9;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color : white;
+  color : black;
   height: 100vh;
   width: 100%;
   font-family: 'Pretendard-Regular';
@@ -53,8 +53,7 @@
 .selectPeople{
   /* Rectangle 1470 */
   box-sizing: border-box;
-  background: rgba(217, 217, 217, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 5vh;
   padding: 1vh 2vh 1vh 2vh;
   margin-right: 2.5vh;

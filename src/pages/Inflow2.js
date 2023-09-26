@@ -33,13 +33,18 @@ function App(){
     }
   }
 
+  const gotoInflow3 = () => {
+    sessionStorage.setItem('people', peopleValue);
+    navigate('/inflow3');
+  }
+
   return (
     <Wrapper>
     <div className={styles.App2}>
       <div className={styles.content}>
         <div className={styles.invisibleNav2}>
           <div className={styles.backBtn} onClick={() => navigate(-1)}></div>
-          <div className={styles.inflow2Title}>포즈 모아보기</div>
+          <div className={styles.inflow2Title}>랜덤포즈 뽑기</div>
           </div>
         <div className={styles.inflow2Script}>
           <div className={styles.inflow2ScriptFirst}>몇 명이서 사진을<br/>찍을 건가요?</div>
@@ -54,9 +59,9 @@ function App(){
       </div>
        {
         peopleValue == 0 ?
-        <div className={styles.randBtnDisabled}>뽑기</div>
+        <div className={styles.randBtnDisabled}>뽑기</div>
         :
-        <Link to={`/inflow3`} state={{ people: peopleValue }} className={styles.randBtn}>뽑기</Link>
+        <button className={styles.randBtn} onClick={gotoInflow3}>뽑기</button>
        }     
     </div>
     </Wrapper>

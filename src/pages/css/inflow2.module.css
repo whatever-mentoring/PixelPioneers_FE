@@ -1,25 +1,11 @@
-/* @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('../resource/font/Pretendard-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Pretendard-SemiBold';
-  src: url('../resource/font/Pretendard-SemiBold.woff') format('woff');
-  font-weight: 400;
-  font-style: bold;
-} */
-
 @import url("./font.css");
 
 .App2 {
-  background-color: #1C54A9;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color : white;
+  color : black;
   height: 100vh;
   width: 100%;
   font-family: 'Pretendard-Regular';
@@ -79,16 +65,15 @@
 
 .inflow2ScriptSecond{
   font-size: 1.7vh;
-  color:#FFFFFF;
+  color:black;
   opacity: 70%;
 }
 
 .peopleContainer{
-  border-color: #FFFFFF;
   box-sizing: border-box;
   width: 35vh;
   height: 7vh;
-  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border: 1.5px solid black;
   border-radius: 5vh;
   display: flex;
   justify-content: space-between;
@@ -128,7 +113,7 @@
   text-align: center;
   line-height: 7vh;
   border-style: none;
-  background: #62E857;
+  background: #1C66FD;
   border-radius: 16px;
   font-size: 2.2vh;
   color: white;
@@ -137,6 +122,6 @@
 }
 
 .randBtnDisabled{
-  background: rgba(255, 255, 255, 0.7);
+  background: #E4E4E4;
 }
 

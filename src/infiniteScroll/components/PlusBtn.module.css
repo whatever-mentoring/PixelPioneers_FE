@@ -1,0 +1,9 @@
+.plusBtn{
+    margin-top: 0vh;
+    width: 14vh;
+    height: 14vh;
+    background-image: url('../../resource/Group67.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

@@ -1,0 +1,90 @@
+@import url("./font.css");
+
+.background9{
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+
+}
+.background10{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 40%;
+    display:flex;
+    justify-content: center;
+}
+.background11{
+    position: fixed;
+    width: 100%;
+    color : rgb(0, 0, 0);
+    font-family: 'Pretendard-Regular';
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1vh 1vh 0 0;
+    z-index: 1;
+    bottom: 0vh;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: 1s ease;
+}
+.controler1{
+    width: 4vh;
+    height: 1vh;
+    background-image: url('../../resource/controler.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1.2vh;
+}
+.membermanage{
+    font-family: 'Pretendard-Bold';
+    text-align: center;
+    width: 100%;
+    margin-top: 1vh;
+}
+.membersArea{
+    overflow-x:scroll;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 3vh;
+    transition: 0.25s;
+}
+    .box10{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+        .membermanageimg{
+            border-radius: 7vh;
+            background-color: #1C66FD;
+            width: 3.5vh;
+            height: 3.5vh;
+            margin-left: 3vh;
+        }
+        .membermanage5{
+            font-family: 'Pretendard-ExtraLight';
+            font-size: 2vh;
+            margin-left: 1vh;
+        }
+
+.addmember{
+    background-image: url(../../resource/cplus.png);
+    background-repeat: no-repeat;
+    background-size: 3.5vh;
+    width: 3.5vh;
+    height: 3.5vh;
+    margin-left: 3vh;
+}

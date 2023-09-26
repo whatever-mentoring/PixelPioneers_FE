@@ -5,20 +5,10 @@
   font-style: normal;
 }
 
-.close{
-  position: relative;
-  width: 2vh;
-  height: 2vh;
-  background-image: url(../resource/closem.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  float: left;
-  margin-left: 5%;
-  top: 8vh;
-}
+
 
 .App{
-  background-color: #1C54A9;
+  background-color: white;
   width: 100%;
   height: 100vh;
   overflow-y: scroll;
@@ -31,7 +21,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 5vh;
+  height: 3vh;
+  background-image: url("../resource/img/mainPage/moamoa_k.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.close{
+  position: fixed;
+  width: 2vh;
+  height: 2vh;
+  background-image: url(../resource/closem.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: left;
+  margin-left: 5%;
+  top: 5vh;
 }
 .tag2{
   display: flex;
@@ -39,6 +44,9 @@
   justify-content: center;
   text-align: center;
   font-size: 2.5vh;
+}
+.tag2 > span{
+  font-weight: 350;
 }
 .laun{
   background-image: url("../resource/Group69m.png");
@@ -53,6 +61,9 @@
   position: relative;
   top: -6vh;
   margin: auto;
+}
+a{
+  text-decoration: none;
 }
 .buttonArea4{
   
@@ -89,11 +100,11 @@
   width: 80%;
   height: 5vh;
   position: relative;
-  top: 13vh;
+  top: 12vh;
   
   text-align: center;
   border-radius: 3vh; 
-  
+  border: 0.1vh solid #BFBFBF;
   display: flex;
   margin: auto;
   
@@ -114,7 +125,7 @@
   
 }
 .login1{
-  color: white;
+  color: rgb(0, 0, 0);
   position: relative;
   top: 30vh;
   font-size: 1.8vh;
@@ -125,6 +136,7 @@
   left: 1vh;
   position: relative;
   font-weight: 900;
+  color: black;
 }
 .kakaotext{
   text-align: center;

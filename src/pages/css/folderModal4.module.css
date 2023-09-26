@@ -1,0 +1,203 @@
+.App{
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;  
+}
+
+.App1{
+    position: fixed;
+    background-color: black;
+    opacity: 40%;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    
+}
+.App2{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.controler{
+    width: 4vh;
+    height: 1vh;
+    background-image: url('../../resource/controler.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 1vh;
+}
+.close{
+    width: 2.5vh;
+    height: 2.5vh;
+    background-image: url(../../resource/closem2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: right;
+    margin-right: 2vh;
+}
+.box6{
+    display:block;
+    width: 100%;
+    height: 45vh;
+}
+.addname{
+    text-align: center;
+    font-size: 2.2vh;
+    font-weight: 900;
+    margin-left: 4vh;
+    margin-top: 1vh;
+    margin-bottom: 3%;
+}
+.box5{
+    border: .2vh solid #DADADA;
+    border-radius: 2vh;
+    width: 65%;
+    height: 36vh;
+    margin: auto;
+}
+.folder{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 36vh;
+}
+.folder label{
+    margin: auto;
+    color: #fff;
+    display: flex;
+    background-color: #ffffffb6;
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+   
+}
+.folder label .plus3{
+    width: 5vh;
+    height: 5vh;
+    margin: auto;
+}
+
+.folder label:hover{
+    background-color: #ffffff;
+}
+.folder label:active{
+    background-color: #ffffff;
+}
+.folder input[type="file"]{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.pictureupload{
+    text-align: center;
+    position: relative;
+    top: -13vh;
+    color: #DADADA;
+    z-index: 1998;
+    font-size: 1.8vh;
+}
+.upload{
+    background-color: #1C66FD;
+    color: white;
+    width: 100%;
+    height: 9vh;
+    position: relative;
+    top: -2vh;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 900;
+    line-height: 9vh;
+
+} 
+.name{
+    font-size: 2.1vh;
+    color: #DADADA;
+    margin-left: 12%;
+    margin-bottom: 1vh;
+    font-weight: 900;
+}
+
+.box7{
+    width: 85%;
+    height: 7vh;
+    border: 2px solid #DADADA;
+    border-radius: 16px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.box7 > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border : 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    border-radius: 16px;
+    height: 7vh;
+    width: 30%;
+}
+.text{
+    width: 70%;
+}
+.number{
+    width: 100%;
+    text-align: center;
+}
+
+
+.block2{
+    margin-bottom: 10vh;
+}
+input{
+    height: 4vh;
+    outline: none;
+    border: .1vh solid white;
+    border-radius: 8px;
+    margin: 0vh 1vh 0vh 1vh;
+    font-size: 2.2vh;;
+}
+.addpicture{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 9vh;
+    border: none;
+    border-radius: 0;
+    background-color: #1C66FD;
+    cursor: pointer;
+    font-size: 2vh;
+    font-weight: 900;
+    line-height: 9vh;
+    text-align: center;
+    color: white;
+}
+.folder label #imgtag{
+    /* object-fit: cover;
+    justify-content: center;
+    align-items: center; */
+    
+    
+
+}
+
+.imgtag{
+    /*
+    justify-content: center;
+    align-items: center; */
+    height: 35.9999vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2vh;
+}
