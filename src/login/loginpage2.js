@@ -13,10 +13,8 @@ function App(){
     const [disableBtn , setDisableBtn] = useState(false);
     const [UserEmail, setUserEmail] = useState('');
 
-    //const REST_API_KEY = "b59aee3993ebe9ad7fbb5727b2539f35";
     const REST_API_KEY = process.env.REACT_APP_REST_API_KEY;
     const REDIRECT_URI = process.env.REACT_APP_RURL;
-    //const REDIRECT_URI = "http://moamoa4cut.net/Oauth";
     const KAKAO_AUTH_URI = `https://kauth.kakao.com/oauth/authorize?client_id=${REST_API_KEY}&redirect_uri=${REDIRECT_URI}&response_type=code`;
 
     const delay = ms => new Promise(resolve => setTimeout(resolve, ms)); // 딜레이
